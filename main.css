@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+}
+
+body {
+    background-color: rgba(194, 199, 204, 0.297);
+}
+
+h1 {
+    padding: 16px;
+    text-align: center;
+    background-color: #c9daf8;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    background-color: #c9daf8;
+    border-bottom: 16px solid #c9daf8;
+}
+
+ul#lista-tarefa {
+    padding: 30px;
+    display: grid;
+    justify-content: center;
+}
+
+ul#lista-tarefa li {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+ul#lista-tarefa li.completed {
+    text-decoration: line-through;
+}
+
+input, button {
+    padding: 10px;
+}
+
+button {
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+}
